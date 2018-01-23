@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "bower install",
     "test": "nodemon ./bin/www",
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "bcrypt-nodejs": "*",
@@ -20,6 +20,7 @@
     "express-session": "*",
     "mongoose": "*",
     "morgan": "~1.5.1",
+    "nodemon": "^1.14.11",
     "passport": "~0.2.0",
     "passport-local": "~1.0.0",
     "serve-favicon": "~2.2.0"

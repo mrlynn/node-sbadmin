@@ -4,7 +4,7 @@ module.exports = function(app, passport){
 	
 	 /* GET home page. */
 	app.get('/',isAuthenticated, function(req, res) {
-	   res.redirect('/readme');
+	   res.redirect('/blank');
 	});
 
 	app.post('/login', passport.authenticate('login', {
